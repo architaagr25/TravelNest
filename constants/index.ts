@@ -50,37 +50,28 @@ export const features = [
 // FOOTER SECTION
 export const FOOTER_LINKS = [
   {
-    title: 'Learn More',
-    links: [
-      'About Hilink',
-      'Press Releases',
-      'Environment',
-      'Jobs',
-      'Privacy Policy',
-      'Contact Us',
-    ],
+    title: "Explore",
+    links: ["Destinations", "Trails", "Campgrounds", "Travel Guides"],
   },
   {
-    title: 'Our Community',
-    links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+    title: "Company",
+    links: ["About Us", "Careers", "Blog", "Press"],
+  },
+  {
+    title: "Support",
+    links: ["Help Center", "Terms of Service", "Privacy Policy", "Contact"],
   },
 ];
 
 export const FOOTER_CONTACT_INFO = {
-  title: 'Contact Us',
+  title: "Contact Us",
   links: [
-    { label: 'Admin Officer', value: '123-456-7890' },
-    { label: 'Email Officer', value: 'hilink@akinthil.com' },
+    { label: "Email", value: "support@tripnest.app" },
+    { label: "Phone", value: "+1 (800) 555-TRIP" },
   ],
 };
 
 export const SOCIALS = {
-  title: 'Social',
-  links: [
-    '/facebook.svg',
-    '/instagram.svg',
-    '/twitter.svg',
-    '/youtube.svg',
-    '/wordpress.svg',
-  ],
+  title: "Follow Us",
+  links: ["/instagram.svg", "/twitter.svg", "/facebook.svg"],
 };
