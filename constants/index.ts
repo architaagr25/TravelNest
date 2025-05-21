@@ -16,34 +16,34 @@ export const PEOPLE_URL = [
 ];
 
 // FEATURES SECTION
-export const FEATURES = [
+export const features = [
   {
-    title: 'Real maps can be offline',
-    icon: '/map.svg',
-    variant: 'green',
+    id: 1,
+    title: "Offline Maps",
     description:
-      'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+      "Explore confidently with access to maps even in remote areas without internet. Navigate trails, campsites, and wilderness paths with precision.",
+    icon: "/1.jpg",
   },
   {
-    title: 'Set an adventure schedule',
-    icon: '/calendar.svg',
-    variant: 'green',
+    id: 2,
+    title: "Live Location Sharing",
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+      "Share your exact location with friends and family while on the trail. Stay connected and safe even in the most isolated areas.",
+    icon: "/2.png",
   },
   {
-    title: 'Technology using augment reality',
-    icon: '/tech.svg',
-    variant: 'green',
+    id: 3,
+    title: "Weather Updates",
     description:
-      'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+      "Get real-time weather alerts to stay safe during your trek. Avoid unpredictable conditions and plan your adventure better.",
+    icon: "/3.png",
   },
   {
-    title: 'Many new locations every month',
-    icon: '/location.svg',
-    variant: 'orange',
+    id: 4,
+    title: "Custom Trail Planning",
     description:
-      'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+      "Design your own adventure routes with our intuitive trail planner. Add checkpoints, estimate time, and customize your trekking experience like never before.",
+    icon: "/4.png",
   },
 ];
 
