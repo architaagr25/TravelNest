@@ -30,11 +30,12 @@ module.exports = {
         },
       },
       backgroundImage: {
-        'bg-img-1': "url('/img-1.png')",
-        'bg-img-2': "url('/img-2.png')",
-        'feature-bg': "url('/feature-bg.png')",
-        pattern: "url('/pattern.png')",
-        'pattern-2': "url('/pattern-bg.png')",
+        'bg-img-1': "url('https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921338/img-1_pbqlr9.jpg')",
+        'bg-img-2': "url('https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921337/img-2_fxofpa.jpg')",
+        'bg-img-3': "url('https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921340/img-3_jizvex.jpg')",
+        'feature-bg': "url('https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921335/feature-bg_opbgxa.jpg')",
+        pattern: "url('https://res.cloudinary.com/dqbhvzioe/image/upload/v1747924516/pattern_imwiwp.png')",
+        'pattern-2': "url('https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921333/pattern-bg_ndejz7.png')",
       },
       screens: {
         xs: '400px',

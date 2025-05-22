@@ -55,21 +55,21 @@ const Camp = () => {
         className="hide-scrollbar flex w-full gap-6 overflow-x-auto pb-6 md:gap-8 lg:h-[400px] xl:h-[640px] scroll-smooth"
       >
         <CampSite
-          backgroundImage="https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921338/img-1_pbqlr9.jpg"
+          backgroundImage="bg-bg-img-1"
           title="Roopkund Trek"
           subtitle="Uttarakhand, India"
           peopleJoined=" 80+ Joined"
         />
 
         <CampSite
-          backgroundImage="https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921337/img-2_fxofpa.jpg"
+          backgroundImage="bg-bg-img-2"
           title="Hampta Pass"
           subtitle="Himachal Pradesh, India"
           peopleJoined=" 100+ Joined"
         />
 
         <CampSite
-          backgroundImage="https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921340/img-3_jizvex.jpg"
+          backgroundImage="bg-bg-img-3"
           title="Kedartal Trek"
           subtitle="Uttarakhand, India"
           peopleJoined=" 50+ Joined"
