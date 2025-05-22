@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-start gap-10">
           <div className="flex flex-col gap-6">
             <Link href="/">
-              <Image src="/travel_logo.png" alt="TripNest Logo" width={120} height={40} />
+              <Image src="https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921339/travel_logo_yjdmw2.png" alt="TripNest Logo" width={120} height={40} />
             </Link>
             <p className="regular-16 text-black max-w-sm">
               Your ultimate companion for unforgettable trekking adventures. Navigate. Share. Explore.

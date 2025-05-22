@@ -5,7 +5,7 @@ import Image from "next/image";
 const GetApp = () => {
   return (
     <section className="relative w-full overflow-hidden  text-white py-24 px-6 md:px-16"
-    style={{ backgroundImage: "url('/getappimg.jpg')" }}>
+    style={{ backgroundImage: "url('https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921338/getappimg_cudnbr.jpg')" }}>
       {/* Diagonal Background Shape */}
       <div className="absolute top-0 left-0 w-full h-full -z-10 clip-diagonal bg-gradient-to-r from-blue-800 to-purple-700 opacity-30 animate-gradientMove" />
 
@@ -13,7 +13,7 @@ const GetApp = () => {
         {/* Phone Image */}
         <div className="w-full md:w-1/2 flex justify-center relative group">
           <Image
-            src="/phone.png"
+            src="https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921337/phone_avkex9.png"
             alt="App Preview"
             width={280}
             height={560}

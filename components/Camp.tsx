@@ -19,7 +19,7 @@ const CampSite = ({ backgroundImage, title, subtitle, peopleJoined }: CampProps)
       <div className="flex h-full flex-col justify-between p-6 lg:px-16 lg:py-12 bg-black/40 rounded-3xl backdrop-blur-sm">
         <div className="flex items-center gap-4 animate-fade-in-up">
           <div className="rounded-full bg-blue-500 p-4 transition duration-300 hover:scale-110">
-            <Image src="/folded-map.svg" alt="map" width={28} height={28} />
+            <Image src="https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921333/folded-map_obunel.svg" alt="map" width={28} height={28} />
           </div>
           <div className="flex flex-col gap-1 text-white">
             <h4 className="bold-20">{title}</h4>
@@ -55,21 +55,21 @@ const Camp = () => {
         className="hide-scrollbar flex w-full gap-6 overflow-x-auto pb-6 md:gap-8 lg:h-[400px] xl:h-[640px] scroll-smooth"
       >
         <CampSite
-          backgroundImage="bg-bg-img-1"
+          backgroundImage="https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921338/img-1_pbqlr9.jpg"
           title="Roopkund Trek"
           subtitle="Uttarakhand, India"
           peopleJoined=" 80+ Joined"
         />
 
         <CampSite
-          backgroundImage="bg-bg-img-2"
+          backgroundImage="https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921337/img-2_fxofpa.jpg"
           title="Hampta Pass"
           subtitle="Himachal Pradesh, India"
           peopleJoined=" 100+ Joined"
         />
 
         <CampSite
-          backgroundImage="bg-bg-img-1"
+          backgroundImage="https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921340/img-3_jizvex.jpg"
           title="Kedartal Trek"
           subtitle="Uttarakhand, India"
           peopleJoined=" 50+ Joined"
@@ -88,7 +88,7 @@ const Camp = () => {
             the very first step of your adventure.
           </p>
           <Image
-            src="/quote.svg"
+            src="https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921339/quote_n0ftsr.svg"
             alt="camp-2"
             width={186}
             height={219}

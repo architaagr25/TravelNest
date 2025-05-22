@@ -9,10 +9,10 @@ export const NAV_LINKS = [
 
 // CAMP SECTION
 export const PEOPLE_URL = [
-  '/person-1.png',
-  '/person-2.png',
-  '/person-3.png',
-  '/person-4.png',
+  'https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921334/person-1_rmkgs0.jpg',
+  'https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921335/person-2_vnc409.jpg',
+  'https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921338/person-3_cnw1on.jpg',
+  'https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921335/person-4_midmn4.jpg',
 ];
 
 // FEATURES SECTION
@@ -22,28 +22,28 @@ export const features = [
     title: "Offline Maps",
     description:
       "Explore confidently with access to maps even in remote areas without internet. Navigate trails, campsites, and wilderness paths with precision.",
-    icon: "/1.jpg",
+    icon: "https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921331/1_n1grve.png",
   },
   {
     id: 2,
     title: "Live Location Sharing",
     description:
       "Share your exact location with friends and family while on the trail. Stay connected and safe even in the most isolated areas.",
-    icon: "/2.png",
+    icon: "https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921331/2_bj6srh.png",
   },
   {
     id: 3,
     title: "Weather Updates",
     description:
       "Get real-time weather alerts to stay safe during your trek. Avoid unpredictable conditions and plan your adventure better.",
-    icon: "/3.png",
+    icon: "https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921332/3_lqd8wj.png",
   },
   {
     id: 4,
     title: "Custom Trail Planning",
     description:
       "Design your own adventure routes with our intuitive trail planner. Add checkpoints, estimate time, and customize your trekking experience like never before.",
-    icon: "/4.png",
+    icon: "https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921332/4_wsvol5.png",
   },
 ];
 
@@ -73,5 +73,5 @@ export const FOOTER_CONTACT_INFO = {
 
 export const SOCIALS = {
   title: "Follow Us",
-  links: ["/instagram.svg", "/twitter.svg", "/facebook.svg"],
+  links: ["https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921331/instagram_k9lmb0.svg", "https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921340/twitter_icfdzj.svg", "https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921333/facebook_zodisv.svg"],
 };

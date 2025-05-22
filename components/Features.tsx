@@ -11,7 +11,7 @@ const Features = () => {
   return (
     <section
       className="relative w-full min-h-screen flex flex-col md:flex-row bg-cover bg-center overflow-hidden pt-10"
-      style={{ backgroundImage: "url('/feature-bg.jpg')" }}
+      style={{ backgroundImage: "url('https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921335/feature-bg_opbgxa.jpg')" }}
     >
       {/* Left Section - Feature Cards */}
       <div className="w-full md:w-[40%] h-full flex flex-col justify-center items-start px-6 md:px-10 py-16 gap-6 bg-black bg-opacity-40 ">

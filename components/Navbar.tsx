@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="flexBetween max-container padding-container relative z-30 py-5">
       <Link href="/">
-        <Image src="/travel_logo.png" alt="logo" width={104} height={29} />
+        <Image src="https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921339/travel_logo_yjdmw2.png" alt="logo" width={104} height={29} />
       </Link>
 
       <ul className="hidden h-full gap-12 lg:flex">
@@ -31,14 +31,14 @@ const Navbar = () => {
         <Button
           type="button"
           title="LogIn"
-          icon="/user.svg"
+          icon="https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921340/user_uyacqj.svg"
           variant="btn_dark_green"
         />
       </div>
 
       <div className="lg:hidden">
         <Image
-          src="/menu.svg"
+          src="https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921331/menu_ececch.svg"
           alt="menu"
           width={32}
           height={32}
@@ -62,7 +62,7 @@ const Navbar = () => {
           <Button
             type="button"
             title="LogIn"
-            icon="/user.svg"
+            icon="https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921340/user_uyacqj.svg"
             variant="btn_dark_green"
           />
         </div>

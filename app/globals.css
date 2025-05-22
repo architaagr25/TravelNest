@@ -238,7 +238,13 @@ body {
   .bold-16 {
     @apply text-[16px] font-[700];
   }
+.bg-pattern-2 {
+    background-image: url('https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921333/pattern-bg_ndejz7.png');
+}
 
+.bg-pattern {
+    background-image: url('/pattern.pnhttps://res.cloudinary.com/dqbhvzioe/image/upload/v1747921333/pattern-bg_ndejz7.png');
+}
   /* Hero */
   .hero-map {
     @apply absolute right-0 top-0 h-screen w-screen bg-pattern-2 bg-cover bg-center md:-right-28 xl:-top-60;

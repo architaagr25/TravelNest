@@ -9,7 +9,7 @@ const Guide = () => {
       {/* Top Section */}
       <div className="max-container w-full px-6 sm:px-12 pb-24 pt-16 space-y-8">
         <div className="flex items-center gap-3 animate-slide-in-left">
-          <Image src="/camp.svg" alt="camp" width={50} height={50} />
+          <Image src="https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921332/camp_hk7xyx.svg" alt="camp" width={50} height={50} />
           <p className="uppercase bold-18 text-blue-700 tracking-widest drop-shadow-sm">
             Your Adventure Starts with Us
           </p>
@@ -28,7 +28,7 @@ const Guide = () => {
       {/* Image Section */}
       <div className="relative w-full max-container overflow-hidden rounded-t-3xl group transition-all duration-700">
         <Image
-          src="/boat.png"
+          src="https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921339/boat_dnkcuh.png"
           alt="boat"
           width={1440}
           height={580}
@@ -38,7 +38,7 @@ const Guide = () => {
         {/*Floating Info Box */}
         <div className="absolute z-20 top-6 left-4 sm:left-[5%] lg:top-20 bg-white rounded-2xl border shadow-xl py-8 px-10 flex gap-5 items-start animate-slide-in-right delay-300 hover:scale-[1.03] transition-transform duration-300 max-w-[280px]">
           <Image
-            src="/meter.svg"
+            src="https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921332/meter_hwalwo.svg"
             alt="meter"
             width={12}
             height={140}

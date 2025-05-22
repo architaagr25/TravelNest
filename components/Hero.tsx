@@ -14,7 +14,7 @@ const Hero = () => {
       <div className="z-10 flex-1 flex flex-col gap-8 xl:max-w-[50%]">
         <div className="relative mb-2">
           <Image
-            src="/camp.svg"
+            src="https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921332/camp_hk7xyx.svg"
             alt="camp"
             width={50}
             height={50}
@@ -36,7 +36,7 @@ const Hero = () => {
           <div className="flex gap-1">
             {Array(5).fill(1).map((_, index) => (
               <Image
-                src="/star.svg"
+                src="https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921339/star_bp5w8u.svg"
                 key={index}
                 alt="star"
                 width={26}
@@ -60,7 +60,7 @@ const Hero = () => {
           <Button 
             type="button" 
             title="How we work?" 
-            icon="/play.png"
+            icon="https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921338/play_z0sswj.png"
             variant="btn_white_text"
           />
         </div>
@@ -75,7 +75,7 @@ const Hero = () => {
               <p className="regular-16 text-gray-20">Location</p>
               <p className="bold-20 text-white">Hampta Pass</p>
             </div>
-            <Image src="/close.svg" alt="close" width={24} height={24} />
+            <Image src="https://res.cloudinary.com/dqbhvzioe/image/upload/v1747921333/close_z1gsxh.svg" alt="close" width={24} height={24} />
           </div>
 
           <div className="flex justify-between">
